@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Firebase Demo</string>
+    <string name="send_data_to_server">Send Data to Server</string>
+    <string name="boxer_id">Boxer Id</string>
+    <string name="hint_id">Enter a Unique Id...</string>
+    <string name="boxer_name">Boxer Name</string>
+    <string name="boxer_Name">Enter the Boxer Name...</string>
+    <string name="boxer_punch_power">Boxer Punch Power</string>
+    <string name="punch_power">Enter the Boxer Punch Power...</string>
+    <string name="punch_speed">Boxer Punch Speed</string>
+    <string name="enter_the_boxer_punch_speed">Enter the Boxer Punch Speed..</string>
+    <string name="stamina">Boxer Stamina</string>
+    <string name="enter_boxer_stamina">Enter Boxer Stamina ...</string>
+    <string name="send_datas_to_server">Send Data to Server</string>
+    <string name="read_data_from_serverr">Read Data From Serverr</string>
+    <string name="goto_second_activity_for_read_data">Goto Second Activity For Read Data</string>
+</resources>

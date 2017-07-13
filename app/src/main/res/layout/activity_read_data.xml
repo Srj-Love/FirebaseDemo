@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.suraj.firebasedemo.ReadDataActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#8dd2e7"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boxer_id" />
+
+    <EditText
+        android:id="@+id/readbxrId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_id"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boxer_name" />
+
+    <EditText
+        android:id="@+id/readbxrName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/boxer_Name"
+        android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/read"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#d1eef7"
+            android:shadowColor="#cfa6a6"
+            android:text="@string/read_data_from_serverr"
+            android:textColor="#2723ff"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/readValues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#d1eef7"
+            android:shadowColor="#cfa6a6"
+            android:text="get Value"
+            android:textColor="#2723ff"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+</RelativeLayout>
